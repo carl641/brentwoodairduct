@@ -58,11 +58,15 @@
     });
   });
 
-  // Highlight active nav link based on current path
-  var path = location.pathname.split("/").pop() || "index.html";
+  // Highlight active nav link based on current path (clean, extensionless URLs)
+  function normalizePath(p) {
+    p = p.replace(/index\.html$/, "");
+    if (p.length > 1) p = p.replace(/\/$/, "");
+    return p || "/";
+  }
+  var current = normalizePath(location.pathname);
   document.querySelectorAll(".nav-links a").forEach(function (a) {
-    var href = a.getAttribute("href");
-    if (href === path || (path === "index.html" && href === "index.html")) {
+    if (normalizePath(a.getAttribute("href")) === current) {
       a.classList.add("active");
     }
   });
