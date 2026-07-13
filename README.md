@@ -71,7 +71,7 @@ python3 -m http.server 8000
 
 Before going live, replace the following placeholders with real business details:
 
-- **Phone number:** `(615) 971-2665` (used in `tel:` links and content)
+- **Phone number:** `(615) 857-5923` (used in `tel:` links and content)
 - **Email:** `info@brentwoodairduct.com`
 - **Address:** Maryland Farms, Brentwood, TN 37027
 - **Domain:** `https://www.brentwoodairduct.com/` (canonical/OG tags & sitemap)
