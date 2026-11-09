@@ -1,7 +1,7 @@
 # Brentwood Air Duct Cleaning
 
-Marketing website for **Brentwood Air Duct Cleaning** — a locally owned air duct,
-dryer vent, and HVAC cleaning company serving Brentwood, TN and the surrounding
+Marketing website for **Brentwood Air Duct Cleaning** — a locally owned air duct
+cleaning company serving Brentwood, TN and the surrounding
 Middle Tennessee communities.
 
 ## Overview
@@ -22,9 +22,6 @@ vanilla JavaScript — no build step or dependencies required.
 ## Services Featured
 
 - Air Duct Cleaning
-- Dryer Vent Cleaning
-- HVAC System Cleaning
-- Air Quality & Sanitizing
 - Residential Duct Cleaning
 - Commercial Duct Cleaning
 
