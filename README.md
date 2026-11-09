@@ -74,7 +74,7 @@ Before going live, replace the following placeholders with real business details
 - **Phone number:** `(615) 857-5923` (used in `tel:` links and content)
 - **Email:** `info@brentwoodairduct.com`
 - **Address:** Maryland Farms, Brentwood, TN 37027
-- **Domain:** `https://www.brentwoodairduct.com/` (canonical/OG tags & sitemap)
+- **Domain:** `https://brentwoodairduct.com/` (canonical/OG tags & sitemap)
 - **Social links:** the footer social icons currently point to `#`
 - **Form backend:** forms show a client-side success message only; connect them to
   a real handler (e.g. Formspree, Netlify Forms, or your CRM) to receive leads
